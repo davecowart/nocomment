@@ -1,0 +1,10 @@
+{
+	"name": "NoComment",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "Hides all comment-related parts of al.com",
+	"content_scripts": [{
+		"matches": ["http://*.al.com/*"],
+		"css": ["mystyles.css"]
+	}]
+}
