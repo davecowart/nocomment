@@ -1,10 +1,10 @@
 {
 	"name": "NoComment",
-	"version": "1.0",
+	"version": "1.1",
 	"manifest_version": 2,
-	"description": "Hides all comment-related parts of al.com",
+	"description": "Hides all comment-related parts of al.com and similar sites",
 	"content_scripts": [{
-		"matches": ["http://*.al.com/*"],
+		"matches": ["http://*.al.com/*", "http://*.cleveland.com/*", "http://*.gulflive.com/*", "http://*.lehighvalleylive.com/*", "http://*.nola.com/*", "http://*.pennlive.com/*", "http://*.nj.com/*", "http://*.mlive.com/*", "http://*.masslive.com/*", "http://*.oregonlive.com/*", "http://*.silive.com/*", "http://*.syracuse.com/*"],
 		"css": ["mystyles.css"]
 	}]
 }
